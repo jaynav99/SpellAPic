@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backg" >
+
+    <LinearLayout
+        android:id="@+id/llSelector"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <Button
+            android:layout_width="151dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.2dip"
+            android:layout_marginTop="-30dip"
+            android:background="@drawable/rope" />
+
+        <Button
+            android:id="@+id/bLevel1"
+            android:layout_width="230dip"
+            android:layout_height="52dip"
+            android:layout_marginTop="-35dip"
+            android:background="@drawable/level1"
+              android:text="1"
+            android:drawablePadding="-30dip"
+            android:drawableRight="@drawable/sticker"
+            android:gravity="right|center_vertical"
+            android:paddingRight="25dip"
+            android:paddingTop="4dip"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/bLevel2"
+            android:layout_width="230dip"
+            android:layout_height="58dip"
+            android:layout_marginLeft="7dip"
+              android:text="1"
+            android:background="@drawable/level2"
+            android:drawablePadding="-30dip"
+            android:drawableRight="@drawable/sticker"
+            android:gravity="right|center_vertical"
+            android:paddingRight="25dip"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bLevel3"
+            android:layout_width="230dip"
+            android:layout_height="68dip"
+            android:layout_marginRight="3dip"
+            android:background="@drawable/level3"
+            android:drawablePadding="-30dip"
+            android:text="1"
+            android:drawableRight="@drawable/sticker"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="8dip"
+            android:paddingRight="20dip"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/togglecheck"
+        android:textOff=""
+        android:textOn="" 
+        android:layout_margin="5dip"/>
+
+</RelativeLayout><!-- From: file:/C:/Users/Jaynav/Downloads/SpellAPic/SpellAPic/app/src/main/res/layout/levelselector.xml -->

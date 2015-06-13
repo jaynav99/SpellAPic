@@ -1,0 +1,14 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <rotate
+        android:duration="80"
+        android:fillAfter="false"
+        android:fillEnabled="false"
+        android:fromDegrees="0"
+        android:repeatCount="3"
+        android:interpolator="@android:anim/cycle_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="8" />
+
+</set>

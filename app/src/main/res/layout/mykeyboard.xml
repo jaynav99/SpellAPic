@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/transparent"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <TableLayout
+        android:id="@+id/myFrameKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal|bottom"
+        android:clipChildren="false"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical"
+            android:paddingBottom="10dp" >
+
+            <TableRow
+                android:id="@+id/tr1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:fitsSystemWindows="true"
+                android:orientation="horizontal"
+                android:stretchColumns="true" >
+
+                <LinearLayout
+                    android:id="@+id/keyboardline1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:baselineAligned="true"
+                    android:clipChildren="false"
+                    android:fitsSystemWindows="true"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tr2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:fitsSystemWindows="true"
+                android:orientation="horizontal"
+                android:stretchColumns="true" >
+
+                <LinearLayout
+                    android:id="@+id/keyboardline2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:baselineAligned="true"
+                    android:clipChildren="false"
+                    android:fitsSystemWindows="true"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tr3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:fitsSystemWindows="true"
+                android:orientation="horizontal"
+                android:stretchColumns="true" >
+
+                <LinearLayout
+                    android:id="@+id/keyboardline3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:baselineAligned="true"
+                    android:clipChildren="false"
+                    android:fitsSystemWindows="true"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </TableLayout>
+
+</FrameLayout>

@@ -1,0 +1,36 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false" >
+
+    <translate
+        android:duration="200"
+        android:fillAfter="false"
+        android:fillEnabled="false"
+        android:fromYDelta="-200.0"
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:toYDelta="50.0" />
+
+    <!--
+             <rotate
+            android:startOffset="300"
+            android:duration="300"
+            android:fillAfter="false"
+            android:fillEnabled="false"
+            android:fromDegrees="0"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="270" />
+    -->
+    <set
+        android:interpolator="@android:anim/linear_interpolator"
+        android:startOffset="200" >
+        <rotate
+            android:duration="300"
+            android:fromDegrees="0"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="720" />
+    </set>
+
+</set><!-- From: file:/C:/Users/Jaynav/Downloads/SpellAPic/SpellAPic/app/src/main/res/anim/cook.xml -->

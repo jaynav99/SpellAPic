@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rlMain"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backg2" >
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#2e1707" >
+
+            <Button
+                android:id="@+id/bHeaderBack"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/back2" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" >
+
+                <TextView
+                    android:id="@+id/headerTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#a45c37"
+                    android:textSize="23sp" />
+
+                <Button
+                    android:id="@+id/bSticker"
+                    android:layout_width="40dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sticker"
+                    android:gravity="center"
+                      android:text="1"
+                      android:textColor="#ffffff"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+         <!--    <Button
+                android:id="@+id/bpointsHeader"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dip"
+                android:visibility="invisible" />
+ -->
+            <Button
+                android:id="@+id/bHeaderCoin"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/coins" />
+
+            <TextView
+                android:id="@+id/tvCoins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="1dp"
+                android:layout_toLeftOf="@+id/bHeaderCoin"
+                android:textColor="#e4ae6b"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <ViewStub
+            android:id="@+id/stubImages"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="5dp"
+            android:inflatedId="@+id/myimages1"
+            android:layout="@layout/myimages1"
+            android:padding="5dp" />
+
+        <ViewStub
+            android:id="@+id/stubKeyboard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:inflatedId="@+id/mykeyboard"
+            android:layout="@layout/mykeyboard" />
+
+        <ViewStub
+            android:id="@+id/stubEditor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mykeyboard"
+            android:inflatedId="@+id/layouteditor1"
+            android:layout="@layout/layouteditor1" />
+    </RelativeLayout>
+
+</FrameLayout>

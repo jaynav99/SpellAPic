@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#092e1707" >
+<!-- <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    > -->
+        <ImageView
+            android:id="@+id/ivSuccess"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="5dip"
+            android:src="@drawable/iv_thumbsup" 
+            android:layout_marginTop="-30dip"
+            android:layout_marginBottom="-5dip"/>
+
+        <ImageView
+            android:id="@+id/tvSuccess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b_awesome" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ivSuccess"
+            android:layout_below="@+id/button1"
+            android:layout_margin="5dip"
+            android:background="@drawable/superb_answer_box"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/ivSuccessAnswerBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvSuccess"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/done"
+            android:padding="5dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout1"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/button1"
+            android:background="@drawable/done"
+            android:padding="5dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout1"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/done"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button5"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/button5"
+            android:background="@drawable/done"
+            android:padding="5dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout1"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/done"
+            android:padding="5dp"
+            android:visibility="invisible" />
+         <Button
+                android:id="@+id/bpointSuperpb"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+    </RelativeLayout>
+<!-- 
+</FrameLayout> --><!-- From: file:/C:/Users/Jaynav/Downloads/SpellAPic/SpellAPic/app/src/main/res/layout/superpb.xml -->

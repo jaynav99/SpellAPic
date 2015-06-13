@@ -1,0 +1,392 @@
+{
+  Easy: {
+    puzzles: [
+      {
+        puzzles_no: 1,
+        category: "Country",
+        no_of_picture_clue: "5",
+        picture_array: [
+          "1_1",
+          "1_2",
+          "1_3",
+          "1_4",
+          "1_5"
+        ],
+        no_of_word: "2",
+        word_size: 13,
+        answer: [
+          {
+            word: "UNITED",
+            length: 6,
+            prewords: [
+              
+            ]
+          },
+          {
+            word: "KINGDOM",
+            length: 7,
+            prewords: [
+              
+            ]
+          }
+        ],
+        final_answer: "UNITED KINGDOM"
+      },
+      {
+        puzzles_no: 2,
+        category: "TV & Movies",
+        no_of_picture_clue: "2",
+        picture_array: [
+          "2_1",
+          "2_2"
+        ],
+        no_of_word: "4",
+        word_size: 13,
+        answer: [
+          {
+            word: "LORD OF",
+            length: 6,
+            prewords: [
+              {
+                preword: "OF",
+                start_point: 5,
+                length: 2
+              }
+            ]
+          },
+          {
+            word: "THE RINGS",
+            length: 7,
+            prewords: [
+              {
+                preword: "THE",
+                start_point: 0,
+                length: 3
+              }
+            ]
+          }
+        ],
+        final_answer: "LORD OF THE RINGS"
+      },
+      {
+        puzzles_no: 3,
+        category: "Brand",
+        no_of_picture_clue: "3",
+        picture_array: [
+          "3_1",
+          "3_2",
+          "3_3"
+        ],
+        no_of_word: "7",
+        word_size: 19,
+        answer: [
+          {
+            word: "THE GOOD THE BAD",
+            length: 12,
+            prewords: [
+              {
+                preword: "THE",
+                start_point: 0,
+                length: 3
+              },
+              {
+                preword: "THE",
+                start_point: 7,
+                length: 3
+              }
+            ]
+          },
+          {
+            word: "AND THE UGLY",
+            length: 8,
+            prewords: [
+              {
+                preword: "THE",
+                start_point: 2,
+                length: 3
+              },
+              {
+                preword: "AND",
+                start_point: 0,
+                length: 3
+              }
+            ]
+          }
+        ],
+        final_answer: "THE GOOD THE BAD AND THE UGLY"
+      },
+      {
+        puzzles_no: 4,
+        category: "Country",
+        no_of_picture_clue: "2",
+        picture_array: [
+          "4_1",
+          "4_2"
+        ],
+        no_of_word: "1",
+        word_size: 13,
+        answer: [
+          {
+            word: "TAIWAN",
+            length: 6,
+            prewords: [
+              
+            ]
+          }
+        ],
+        final_answer: "TAIWAN"
+      },
+      {
+        puzzles_no: 5,
+        category: "Sport & Leisure",
+        no_of_picture_clue: "3",
+        picture_array: [
+          "5_1",
+          "5_2",
+          "5_3",
+       
+        ],
+        no_of_word: "4",
+        word_size: 16,
+        answer: [
+          {
+            word: "ROCK AND",
+            length: 6,
+            prewords: [
+              {
+                preword: "AND",
+                start_point: 5,
+                length: 3
+              }
+            ]
+          },
+          {
+            word: "ROLL DANCE",
+            length: 10,
+            prewords: [
+              
+            ]
+          }
+        ],
+        final_answer: "ROCK AND ROLL DANCE"
+      },
+      {
+        puzzles_no: 6,
+        category: "Country",
+        no_of_picture_clue: "2",
+        picture_array: [
+          "6_1",
+          "6_2"
+        ],
+        no_of_word: "1",
+        word_size: 17,
+        answer: [
+          {
+            word: "BELGIUM",
+            length: 7,
+            prewords: [
+              
+            ]
+          }
+        ],
+        final_answer: "BELGIUM"
+      },
+      {
+        puzzles_no: 7,
+        category: "people",
+        no_of_picture_clue: "3",
+        picture_array: [
+          "7_1",
+          "7_2",
+          "7_3"
+        ],
+        no_of_word: "2",
+        word_size: 10,
+        answer: [
+          {
+            word: "USAIN BOLT",
+            length: 10,
+            prewords: [
+              
+            ]
+          }
+        ],
+        final_answer: "USAIN BOLT"
+      },
+      {
+        puzzles_no: 8,
+        category: "SPORTS",
+        no_of_picture_clue: "2",
+        picture_array: [
+          "8_1",
+          "8_2"
+        ],
+        no_of_word: "1",
+        word_size: 7,
+        answer: [
+          {
+            word: "CRICKET",
+            length: 7,
+            prewords: [
+              
+            ]
+          }
+        ],
+        final_answer: "CRICKET"
+      },
+      {
+        puzzles_no: 9,
+        category: "SPORTS",
+        no_of_picture_clue: "2",
+        picture_array: [
+          "9_1",
+          "9_2"
+        ],
+        no_of_word: "1",
+        word_size: 8,
+        answer: [
+          {
+            word: "FOOTBALL",
+            length: 8,
+            prewords: [
+              
+            ]
+          }
+        ],
+        final_answer: "FOOTBALL"
+      },
+      {
+        puzzles_no: 10,
+        category: "MOVIE",
+        no_of_picture_clue: "2",
+        picture_array: [
+          "10_1",
+          "10_2"
+        ],
+        no_of_word: "1",
+        word_size: 8,
+        answer: [
+          {
+            word: "LIONKING",
+            length: 8,
+            prewords: [
+              
+            ]
+          }
+        ],
+        final_answer: "LIONKING"
+      }
+    ]
+  },
+  Medium:{
+  puzzles: [
+      {
+        puzzles_no: 1,
+        category: "Country",
+        no_of_picture_clue: "3",
+        picture_array: [
+          "2_1_1",
+          "2_1_2",
+          "2_1_3",
+        ],
+        no_of_word: "1",
+        word_size: 8,
+        answer: [
+          {
+            word: "PORTUGAL",
+            length: 8,
+            prewords: [
+              
+            ]
+          }
+        ],
+        final_answer: "PORTUGAL"
+      },
+      {
+        puzzles_no: 2,
+        category: "SPORTS",
+        no_of_picture_clue: "2",
+        picture_array: [
+          "2_2_1",
+          "2_2_2"
+        ],
+        no_of_word: "1",
+        word_size: 6,
+        answer: [
+          {
+            word: "SOCCER",
+            length: 6,
+            prewords: [
+              
+            ]
+          }
+		  ],
+        final_answer: "SOCCER"
+      },
+      {
+        puzzles_no: 3,
+        category: "SPORTS",
+        no_of_picture_clue: "2",
+        picture_array: [
+          "2_2_1",
+          "2_2_2"
+		  ],
+        no_of_word: "1",
+        word_size: 8,
+        answer: [
+          {
+            word: "MARATHON",
+            length: 8,
+            prewords: [
+             
+            ]
+          }
+        ],
+        final_answer: "MARATHON"
+      },
+      {
+        puzzles_no: 4,
+        category: "BOOKS & NOVELS",
+        no_of_picture_clue: "2",
+        picture_array: [
+          "2_4_1",
+          "2_4_2"
+        ],
+        no_of_word: "2",
+        word_size: 9,
+        answer: [
+          {
+            word: "TOY STORY",
+            length: 9,
+            prewords: [
+              
+            ]
+          }
+        ],
+        final_answer: "TOYSTORY"
+      },
+      {
+        puzzles_no: 5,
+        category: "EATERIES",
+        no_of_picture_clue: "2",
+        picture_array: [
+          "2_5_1",
+          "2_5_2"
+       
+        ],
+        no_of_word: "1",
+        word_size: 10,
+        answer: [
+          {
+            word: "SEABISCUIT",
+            length: 10,
+            prewords: [
+             
+            ]
+          }
+        ],
+        final_answer: "SEABISCUIT"
+      }
+    ]
+  }
+}
